@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pdef:Page xmlns:pdef="http://www.br-automation.com/iat2015/pageDefinition/v2" id="ParametrosMaquina" layoutRefId="LayoutPrincipal" description="Parametros Maquina">
+  <Assignments>
+    <Assignment type="Content" baseContentRefId="Fondo_Content" areaRefId="Area_Fondo" />
+    <Assignment type="Content" baseContentRefId="Info_Content" areaRefId="Area_Info" />
+    <Assignment type="Content" baseContentRefId="ParametrosMaquina_Content" areaRefId="Area_Contenido" />
+    <Assignment type="Content" baseContentRefId="Navegacion_Content" areaRefId="Area_Navegacion" />
+  </Assignments>
+</pdef:Page>

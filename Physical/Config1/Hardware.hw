@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.11.2.75 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="4PP065_1043_K01" Type="4PP065.1043-K01" Version="1.1.1.3">
+    <Connector Name="IF5">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="mappview_Config1" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="KeyMappingFile" Value="VC\4PP065_1043_K01.dis" />
+  </Module>
+</Hardware>

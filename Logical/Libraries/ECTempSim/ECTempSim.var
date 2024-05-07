@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: TempLib
+ * File: TempLib.var
+ * Author: gierlingerj
+ * Created: May 15, 2013
+ ********************************************************************
+ * Constants of library TempLib
+ ********************************************************************)
+VAR CONSTANT
+	ERR_TEMPLIB_GAIN_INVALID : DINT := 45000;
+	ERR_TEMPLIB_TUNING_RANGE_INVALID : DINT := 50000;
+END_VAR

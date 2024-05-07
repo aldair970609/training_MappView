@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="miVisu" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="Produccion" />
+  <Pages>
+    <Page refId="ParametrosMaquina" />
+    <Page refId="Alarmas" />
+    <Page refId="Configuracion" />
+    <Page refId="Produccion" />
+  </Pages>
+  <Navigations />
+	<BindingsSets>
+	<BindingsSet refId="Produccion_Content_binding" />
+	<BindingsSet refId="ParametrosMaquina_Content_binding" />
+	<BindingsSet refId="Alarmas_Content_binding" />
+	<BindingsSet refId="Configuracion_Content_binding" />
+	<BindingsSet refId="Info_Content_binding" />
+	<BindingsSet refId="Navegacion_Content_binding" />
+	</BindingsSets>
+  <EventBindingsSets />
+  <Dialogs />
+  <Contents>
+    <Content refId="Fondo_Content" />
+    <Content refId="Navegacion_Content" />
+    <Content refId="Info_Content" />
+    <Content refId="Produccion_Content" />
+    <Content refId="ParametrosMaquina_Content" />
+    <Content refId="Alarmas_Content" />
+    <Content refId="Configuracion_Content" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <Configurations>
+		<Configuration key="activityCount" value="false" />
+		<Configuration key="favicon" value="Media/imagenes_logos/Domum_cuadro_blanco.png" />
+		<Configuration key="bootColor" value="#006bb3" /> 
+		<Configuration key="bootLogo" value="Media/imagenes_logos/domum_1.png" />
+		<Configuration key="zoom" value="true" />
+
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

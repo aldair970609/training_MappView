@@ -1,0 +1,3 @@
+VAR
+	SimuladorTemperatura : ECTempSimModel;
+END_VAR
