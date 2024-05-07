@@ -8,14 +8,14 @@
     <Page refId="Produccion" />
   </Pages>
   <Navigations />
-	<BindingsSets>
-	<BindingsSet refId="Produccion_Content_binding" />
-	<BindingsSet refId="ParametrosMaquina_Content_binding" />
-	<BindingsSet refId="Alarmas_Content_binding" />
-	<BindingsSet refId="Configuracion_Content_binding" />
-	<BindingsSet refId="Info_Content_binding" />
-	<BindingsSet refId="Navegacion_Content_binding" />
-	</BindingsSets>
+  <BindingsSets>
+    <BindingsSet refId="Produccion_Content_binding" />
+    <BindingsSet refId="ParametrosMaquina_Content_binding" />
+    <BindingsSet refId="Alarmas_Content_binding" />
+    <BindingsSet refId="Configuracion_Content_binding" />
+    <BindingsSet refId="Info_Content_binding" />
+    <BindingsSet refId="Navegacion_Content_binding" />
+  </BindingsSets>
   <EventBindingsSets />
   <Dialogs />
   <Contents>
@@ -31,12 +31,11 @@
   <VariablesSets />
   <ExpressionsSets />
   <Configurations>
-		<Configuration key="activityCount" value="false" />
-		<Configuration key="favicon" value="Media/imagenes_logos/Domum_cuadro_blanco.png" />
-		<Configuration key="bootColor" value="#006bb3" /> 
-		<Configuration key="bootLogo" value="Media/imagenes_logos/domum_1.png" />
-		<Configuration key="zoom" value="true" />
-
+    <Configuration key="activityCount" value="false" />
+    <Configuration key="favicon" value="Media/imagenes_logos/Domum_cuadro_blanco.png" />
+    <Configuration key="bootColor" value="#006bb3" />
+    <Configuration key="bootLogo" value="Media/imagenes_logos/domum_1.png" />
+    <Configuration key="zoom" value="true" />
     <Gestures>
       <!--<SystemGesture1 touchPoints="2" />
 		  <SystemGesture2 touchPoints="2" />
