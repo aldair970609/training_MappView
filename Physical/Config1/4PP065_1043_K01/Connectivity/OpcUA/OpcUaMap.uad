@@ -12,15 +12,17 @@
         </EURange>
       </EURanges>
     </EURangesAliases>
-    <EngineeringUnitAliases />
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="20529" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="percent" Symbol="%" />
+    </EngineeringUnitAliases>
   </Aliases>
   <DefaultView>
     <Module Name="&lt;Default&gt;">
       <Task Name="Program">
         <Variable Name="SimuladorTemperatura">
           <Variable Name="Enable" />
-          <Variable Name="InHeat" EURangesId="1" />
-          <Variable Name="OutTemp" />
+          <Variable Name="InHeat" EURangesId="1" EngineeringUnitId="1" />
+          <Variable Name="OutTemp" EURangesId="1" />
         </Variable>
       </Task>
     </Module>
