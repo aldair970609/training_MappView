@@ -7,7 +7,9 @@
     <Page refId="Configuracion" />
     <Page refId="Produccion" />
   </Pages>
-  <Navigations />
+  <Navigations>
+    <Navigation refId="navRefId1" />
+  </Navigations>
   <BindingsSets>
     <BindingsSet refId="Produccion_Content_binding" />
     <BindingsSet refId="ParametrosMaquina_Content_binding" />
@@ -30,6 +32,11 @@
   <SnippetsSets />
   <VariablesSets />
   <ExpressionsSets />
+  <StartTheme themeRefId="BuRTheme1" />
+  <Themes>
+    <Theme refId="BuRTheme1" />
+    <Theme refId="BuRThemeFlat1" />
+  </Themes>
   <Configurations>
     <Configuration key="activityCount" value="false" />
     <Configuration key="favicon" value="Media/imagenes_logos/Domum_cuadro_blanco.png" />

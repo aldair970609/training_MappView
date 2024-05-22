@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Produccion</prop>
+  </header>
+  <body>
+    <tu tuid="Etiqueta.TempActual">
+      <tuv xml:lang="es">
+        <seg>Temperatura actual</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Actual temperature</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Etiqueta.Calentamiento">
+      <tuv xml:lang="es">
+        <seg>Calentamiento</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heating</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Etiqueta.TempMinima">
+      <tuv xml:lang="es">
+        <seg>Temperatura mínima</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Maximum temperature</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Etiqueta.TempMaxima">
+      <tuv xml:lang="es">
+        <seg>Temperatura máxima</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Minimum temperature</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

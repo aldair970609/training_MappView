@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Navegacion</prop>
+  </header>
+  <body>
+    <tu tuid="Pagina.Produccion">
+      <tuv xml:lang="es">
+        <seg>Producción</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Production</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Pagina.ParamMaquina">
+      <tuv xml:lang="es">
+        <seg>Parámetros de máquina</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Pagina.Alarmas">
+      <tuv xml:lang="es">
+        <seg>Alarmas</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarms</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Pagina.Config">
+      <tuv xml:lang="es">
+        <seg>Configuración</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

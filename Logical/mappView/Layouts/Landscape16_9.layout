@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ldef:Layout id="LayoutPrincipal" height="900" width="1800" xmlns:ldef="http://www.br-automation.com/iat2015/layoutDefinition/v2">
   <Areas>
-    <Area id="Area_Info" height="900" width="340" left="0" top="0" zIndex="2" />
-    <Area id="Area_Contenido" height="900" width="1120" left="340" top="0" zIndex="4" />
-    <Area id="Area_Navegacion" height="900" width="340" left="1460" top="0" zIndex="3" />
+    <Area id="Area_Info" height="900" width="340" left="0" top="0" zIndex="4" />
+    <Area id="Area_Contenido" height="900" width="1120" left="340" top="0" zIndex="3" />
+    <Area id="Area_Navegacion" height="900" width="340" left="1460" top="0" zIndex="2" />
     <Area id="Area_Fondo" left="0" top="0" width="1800" height="900" zIndex="1" />
   </Areas>
 </ldef:Layout>

@@ -2,11 +2,11 @@
 <Content id="Configuracion_Content" height="900" width="1120" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
     <Widget xsi:type="widgets.brease.DateTimeInput" id="DateTimeInput1" top="320" left="400" width="702" height="90" zIndex="0" cornerRadius="25px" textAlign="center" fontSize="30px" />
-    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="300" left="40" width="300" height="140" zIndex="1" cornerRadius="15px" fontSize="30px" />
-    <Widget xsi:type="widgets.brease.MeasurementSystemSelector" id="MeasurementSystemSelector1" top="640" left="40" width="300" height="140" zIndex="2" cornerRadius="15px" fontSize="30px" />
-    <Widget xsi:type="widgets.brease.Label" id="Label1" top="40" left="320" width="460" height="110" zIndex="3" text="CONFIGURACIÓN" borderWidth="8px" borderStyle="dotted" fontSize="50px" underline="true" />
-    <Widget xsi:type="widgets.brease.Label" id="Label2" top="240" left="20" width="381" zIndex="4" text="Selección de idioma" fontSize="35px" />
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="300" left="40" width="300" height="140" zIndex="1" listWidth="350" cornerRadius="15px" fontSize="30px" />
+    <Widget xsi:type="widgets.brease.MeasurementSystemSelector" id="MeasurementSystemSelector1" top="640" left="40" width="300" height="140" zIndex="2" listWidth="300" cornerRadius="15px" fontSize="30px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="180" width="460" height="110" zIndex="3" text="$IAT/Encabezados/Configuracion" borderWidth="8px" backGroundGradient="linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%)" borderStyle="solid" textColor="rgba(250, 240, 230, 1)" fontSize="50px" underline="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="240" left="40" width="381" zIndex="4" text="$IAT/Configuracion/SeleccionIdioma" fontSize="35px" />
     <Widget xsi:type="widgets.brease.Label" id="Label3" top="260" left="680" width="381" zIndex="5" text="Fecha y Hora" textAlign="center" fontSize="35px" />
-    <Widget xsi:type="widgets.brease.Label" id="Label4" top="500" left="20" width="380" height="101" zIndex="6" multiLine="true" text="Selección de sistema \n de unidades" fontSize="35px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="520" left="80" width="300" height="101" zIndex="6" multiLine="true" text="$IAT/Configuracion/SeleccionSistemaUni" fontSize="35px" />
   </Widgets>
 </Content>

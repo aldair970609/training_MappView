@@ -4,5 +4,9 @@
   <Objects>
     <Object Type="Package" Description="Texts">Texts</Object>
     <Object Type="Package" Description="Snippets">Snippets</Object>
+    <Object Type="File">Navegacion.tmx</Object>
+    <Object Type="File">Encabezados.tmx</Object>
+    <Object Type="File">Produccion.tmx</Object>
+    <Object Type="File">Configuracion.tmx</Object>
   </Objects>
 </Package>

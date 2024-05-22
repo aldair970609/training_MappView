@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="ParametrosMaquina_Content" height="1020" width="1320" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Widgets />
+<Content id="ParametrosMaquina_Content" height="900" width="1120" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="120" width="880" height="80" zIndex="0" text="$IAT/Encabezados/ParametrosMaquina" borderWidth="8px" cornerRadius="15px" backGroundGradient="linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%)" borderStyle="solid" textColor="rgba(250, 240, 230, 1)" textAlign="center" fontName="Arial" fontSize="60px" underline="true" />
+  </Widgets>
 </Content>

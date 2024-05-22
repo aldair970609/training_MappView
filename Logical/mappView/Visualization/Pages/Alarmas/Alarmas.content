@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="Alarmas_Content" height="900" width="1120" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.TabControl" id="TabControl1" top="100" left="100" width="900" height="208" zIndex="0" headerBackColor="rgba(255, 255, 255, 0)" backColor="rgba(128, 128, 128, 1)">
+    <Widget xsi:type="widgets.brease.TabControl" id="TabControl1" top="160" left="60" width="900" height="208" zIndex="0" headerBackColor="rgba(255, 255, 255, 0)" backColor="rgba(128, 128, 128, 1)">
       <Widgets>
         <Widget xsi:type="widgets.brease.TabItem" id="TabItem1" left="0" zIndex="0" text="TabItem1">
           <Widgets />
@@ -14,20 +14,20 @@
         </Widget>
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="320" left="100" width="900" height="200" zIndex="1">
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="380" left="60" width="900" height="200" zIndex="1">
       <Widgets>
         <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" width="280" zIndex="0" text="AlarmListItem1" />
         <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" width="320" zIndex="1" text="AlarmListItem2" />
         <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem3" width="280" zIndex="2" text="AlarmListItem3" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.AlarmHistory" id="AlarmHistory1" top="540" left="100" width="900" height="242" zIndex="2" headerFontSize="20px" fontSize="20px">
+    <Widget xsi:type="widgets.brease.AlarmHistory" id="AlarmHistory1" top="600" left="60" width="900" height="242" zIndex="2" headerFontSize="20px" fontSize="20px">
       <Widgets>
         <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem1" width="300" zIndex="0" text="AlarmHistoryItem1" />
         <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem2" width="300" zIndex="1" text="AlarmHistoryItem2" />
         <Widget xsi:type="widgets.brease.AlarmHistoryItem" id="AlarmHistoryItem3" width="300" zIndex="2" text="AlarmHistoryItem3" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.Label" id="Label1" top="0" left="340" width="442" height="89" zIndex="3" text="ALARMAS" borderWidth="8px" backColor="rgba(255, 255, 255, 1)" borderStyle="dotted" textAlign="center" fontSize="50px" underline="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="20" left="180" width="442" height="89" zIndex="3" text="$IAT/Encabezados/Alarmas" borderWidth="8px" backColor="rgba(255, 255, 255, 1)" backGroundGradient="linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%)" borderStyle="solid" textColor="rgba(250, 240, 230, 1)" textAlign="center" fontSize="50px" underline="true" />
   </Widgets>
 </Content>

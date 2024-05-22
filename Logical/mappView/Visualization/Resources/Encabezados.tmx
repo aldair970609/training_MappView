@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Encabezados</prop>
+  </header>
+  <body>
+    <tu tuid="Produccion">
+      <tuv xml:lang="es">
+        <seg>PRODUCCIÓN</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PRODUCTION
+</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ParametrosMaquina">
+      <tuv xml:lang="es">
+        <seg>PARÁMETROS DE MÁQUINA</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>MACHINE PARAMETERS</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarmas">
+      <tuv xml:lang="es">
+        <seg>ALARMAS</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ALARMS</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Configuracion">
+      <tuv xml:lang="es">
+        <seg>CONFIGURACIÓN</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>CONFIGURATION</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

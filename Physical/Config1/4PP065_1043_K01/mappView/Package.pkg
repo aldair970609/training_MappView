@@ -10,5 +10,6 @@
     <Object Type="File">Configuracion_Content.binding</Object>
     <Object Type="File">Info_Content.binding</Object>
     <Object Type="File">Navegacion_Content.binding</Object>
+    <Object Type="File">Navigation.nav</Object>
   </Objects>
 </Package>
