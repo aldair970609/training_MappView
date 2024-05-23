@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="Info_Content_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_AlarmaTemp">
+      <Source xsi:type="opcUa.Event" refId="::Program:SimuladorTemperatura.OutTemp" event="ValueChanged" />
+      <EventHandler condition="newValue &gt;= 85">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="Info_Content" widgetRefId="ImageAlarma">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt;= 85">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="Info_Content" widgetRefId="ImageAlarma">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

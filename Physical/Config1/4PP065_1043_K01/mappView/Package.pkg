@@ -11,5 +11,6 @@
     <Object Type="File">Info_Content.binding</Object>
     <Object Type="File">Navegacion_Content.binding</Object>
     <Object Type="File">Navigation.nav</Object>
+    <Object Type="File">Info_Content.eventbinding</Object>
   </Objects>
 </Package>

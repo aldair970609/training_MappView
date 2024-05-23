@@ -18,7 +18,9 @@
     <BindingsSet refId="Info_Content_binding" />
     <BindingsSet refId="Navegacion_Content_binding" />
   </BindingsSets>
-  <EventBindingsSets />
+  <EventBindingsSets>
+    <EventBindingsSet refId="Info_Content_eventbinding" />
+  </EventBindingsSets>
   <Dialogs />
   <Contents>
     <Content refId="Fondo_Content" />
