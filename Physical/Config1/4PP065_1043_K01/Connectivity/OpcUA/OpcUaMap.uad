@@ -19,12 +19,14 @@
   </Aliases>
   <DefaultView>
     <Module Name="&lt;Default&gt;">
-      <Task Name="Program">
+      <Task Name="Temp">
         <Variable Name="SimuladorTemperatura">
           <Variable Name="Enable" />
-          <Variable Name="InHeat" EURangesId="1" EngineeringUnitId="1" />
-          <Variable Name="OutTemp" EURangesId="1" EngineeringUnitId="2" />
+          <Variable Name="InHeat" />
+          <Variable Name="OutTemp" />
         </Variable>
+        <Variable Name="MinTemperature" />
+        <Variable Name="MaxTemperature" />
       </Task>
     </Module>
   </DefaultView>

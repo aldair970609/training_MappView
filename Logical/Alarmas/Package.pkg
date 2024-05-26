@@ -2,6 +2,7 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
-    <Object Type="Program" Language="IEC">Temp</Object>
+    <Object Type="Program" Language="IEC">Alarm</Object>
+    <Object Type="File">AlarmTexts.tmx</Object>
   </Objects>
 </Package>
