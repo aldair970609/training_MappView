@@ -28,6 +28,10 @@
         <Variable Name="MinTemperature" />
         <Variable Name="MaxTemperature" />
       </Task>
+      <Task Name="Alarm">
+        <Variable Name="MpAlarmXCore_0" />
+        <Variable Name="MpAlarmXHistory_0" />
+      </Task>
     </Module>
   </DefaultView>
 </OpcUaSource>

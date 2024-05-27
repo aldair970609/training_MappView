@@ -1,5 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Configuration>
-  <Element ID="gAlarmXCore" Type="mpalarmxcore" />
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="TemperaturaAlta" />
+        <Property ID="Message" Value="{$AlarmTexts/TemperaturaAlta}" />
+        <Selector ID="Behavior" Value="LevelMonitoring">
+          <Group ID="Monitoring">
+            <Property ID="MonitoredPV" Value="::Temp:SimuladorTemperatura.OutTemp" />
+            <Selector ID="HighLimitEnable" Value="Dynamic">
+              <Property ID="LimitPV" Value="::Temp:MaxTemperature" />
+            </Selector>
+          </Group>
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="TemperaturaBaja" />
+        <Property ID="Message" Value="{$AlarmTexts/TemperaturaBaja}" />
+        <Selector ID="Behavior" Value="LevelMonitoring">
+          <Group ID="Monitoring">
+            <Property ID="MonitoredPV" Value="::Temp:SimuladorTemperatura.OutTemp" />
+            <Selector ID="LowLimitEnable" Value="Dynamic">
+              <Property ID="LimitPV" Value="::Temp:MinTemperature" />
+            </Selector>
+          </Group>
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
 </Configuration>
