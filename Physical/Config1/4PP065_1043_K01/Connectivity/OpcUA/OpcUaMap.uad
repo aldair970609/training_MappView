@@ -11,6 +11,18 @@
           <High ValueProvider="Const">415</High>
         </EURange>
       </EURanges>
+      <EURanges Id="2">
+        <EURange>
+          <Low ValueProvider="Const">50</Low>
+          <High ValueProvider="Const">400</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="3">
+        <EURange>
+          <Low ValueProvider="Const">-10</Low>
+          <High ValueProvider="Const">49</High>
+        </EURange>
+      </EURanges>
     </EURangesAliases>
     <EngineeringUnitAliases>
       <EngineeringUnit Id="1" UnitId="20529" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="percent" Symbol="%" />
@@ -25,8 +37,8 @@
           <Variable Name="InHeat" />
           <Variable Name="OutTemp" />
         </Variable>
-        <Variable Name="MinTemperature" />
-        <Variable Name="MaxTemperature" />
+        <Variable Name="MinTemperature" EURangesId="3" />
+        <Variable Name="MaxTemperature" EURangesId="2" />
       </Task>
       <Task Name="Alarm">
         <Variable Name="MpAlarmXCore_0" />

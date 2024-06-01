@@ -9,6 +9,8 @@
         <Widget xsi:type="widgets.brease.OnlineChartYAxis" id="OnlineChartYAxis1" zIndex="1" unit="{'metric':'CEL','imperial':'FAH','imperial-us':'FAH'}">
           <Widgets>
             <Widget xsi:type="widgets.brease.OnlineChartGraph" id="OnlineChartGraph1" zIndex="0" interpolationType="cardinal" xAxisRefId="OnlineChartTimeAxis1" lineColor="rgba(128, 0, 0, 1)" fillColor="rgba(0, 255, 255, 1)" />
+            <Widget xsi:type="widgets.brease.OnlineChartGraph" id="OnlineChartGraph2" zIndex="1" xAxisRefId="OnlineChartTimeAxis1" />
+            <Widget xsi:type="widgets.brease.OnlineChartGraph" id="OnlineChartGraph3" zIndex="2" xAxisRefId="OnlineChartTimeAxis1" />
           </Widgets>
         </Widget>
       </Widgets>
