@@ -7,21 +7,22 @@
   <body>
     <tu tuid="TemperaturaAlta">
       <tuv xml:lang="es">
-        <seg>¡Temperatura máxima excedida!</seg>
+        <seg>¡Temperatura máxima excedida!: {&amp;TempActual|3.2f}</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Maximum temperature exceded!</seg>
       </tuv>
-      <tuv xml:lang="fr">
-        <seg>Bonjour tout le monde!</seg>
-      </tuv>
       <tuv xml:lang="de">
         <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
       </tuv>
     </tu>
     <tu tuid="TemperaturaBaja">
       <tuv xml:lang="es">
-        <seg>¡Temperatura mínima excedida!</seg>
+        <seg>¡Temperatura mínima excedida!: {&amp;TempActual|3.2f}
+</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Minimum temperature exceded!</seg>

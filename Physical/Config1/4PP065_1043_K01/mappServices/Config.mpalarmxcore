@@ -28,5 +28,13 @@
         </Selector>
       </Group>
     </Group>
+    <Group ID="mapp.AlarmX.Core.Snippets">
+      <Group ID="[0]">
+        <Property ID="Key" Value="TempActual" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::Temp:SimuladorTemperatura.OutTemp" />
+        </Selector>
+      </Group>
+    </Group>
   </Element>
 </Configuration>
