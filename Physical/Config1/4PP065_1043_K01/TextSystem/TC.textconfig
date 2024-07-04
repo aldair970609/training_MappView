@@ -15,6 +15,8 @@
       <Property ID="TargetFile[2]" Value="mappView.Visualization.Resources.Navegacion.tmx" />
       <Property ID="TargetFile[3]" Value="mappView.Visualization.Resources.Produccion.tmx" />
       <Property ID="TargetFile[4]" Value="mappView.Visualization.Resources.Configuracion.tmx" />
+      <Property ID="TargetFile[5]" Value="Alarmas.AlarmTexts.tmx" />
+      <Property ID="TargetFile[6]" Value="mappView.Visualization.Resources.Info.tmx" />
     </Group>
   </Element>
 </Configuration>

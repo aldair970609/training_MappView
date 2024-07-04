@@ -2,15 +2,40 @@
 <?AutomationStudio FileVersion="4.9"?>
 <OpcUaSource FileVersion="8" ArVersion="C4.90">
   <Aliases>
-    <ACLAliases />
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleName="Everyone" Access="0x005F" />
+        <ACE RoleName="Operador" Access="0x005F" />
+        <ACE RoleName="Administrador" Access="0x005F" />
+        <ACE RoleName="Mantenimiento" Access="0x005F" />
+      </ACL>
+      <ACL Id="2">
+        <ACE RoleName="Everyone" Access="0x005D" />
+        <ACE RoleName="Operador" Access="0x005F" />
+        <ACE RoleName="Administrador" Access="0x005F" />
+        <ACE RoleName="Mantenimiento" Access="0x005F" />
+      </ACL>
+      <ACL Id="3">
+        <ACE RoleName="Everyone" Access="0x005D" />
+        <ACE RoleName="Operador" Access="0x005F" />
+        <ACE RoleName="Administrador" Access="0x005D" />
+        <ACE RoleName="Mantenimiento" Access="0x005F" />
+      </ACL>
+      <ACL Id="5">
+        <ACE RoleName="Everyone" Access="0x005D" />
+        <ACE RoleName="Operador" Access="0x005F" />
+        <ACE RoleName="Administrador" Access="0x007D" />
+        <ACE RoleName="Mantenimiento" Access="0x007F" />
+      </ACL>
+      <ACL Id="6">
+        <ACE RoleName="Everyone" Access="0x005F" />
+        <ACE RoleName="Operador" Access="0x005F" />
+        <ACE RoleName="Administrador" Access="0x007D" />
+        <ACE RoleName="Mantenimiento" Access="0x007F" />
+      </ACL>
+    </ACLAliases>
     <EURangeViolationAliases />
     <EURangesAliases>
-      <EURanges Id="1">
-        <EURange>
-          <Low ValueProvider="Const">-10</Low>
-          <High ValueProvider="Const">415</High>
-        </EURange>
-      </EURanges>
       <EURanges Id="2">
         <EURange>
           <Low ValueProvider="Const">50</Low>
@@ -23,22 +48,34 @@
           <High ValueProvider="Const">49</High>
         </EURange>
       </EURanges>
+      <EURanges Id="4">
+        <EURange>
+          <Low ValueProvider="Const">-10</Low>
+          <High ValueProvider="Const">400</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="5">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">100</High>
+        </EURange>
+      </EURanges>
     </EURangesAliases>
     <EngineeringUnitAliases>
       <EngineeringUnit Id="1" UnitId="20529" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="percent" Symbol="%" />
       <EngineeringUnit Id="2" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
     </EngineeringUnitAliases>
   </Aliases>
-  <DefaultView>
+  <DefaultView AclId="3">
     <Module Name="&lt;Default&gt;">
       <Task Name="Temp">
         <Variable Name="SimuladorTemperatura">
           <Variable Name="Enable" />
-          <Variable Name="InHeat" />
-          <Variable Name="OutTemp" />
+          <Variable AclId="5" AclInherit="2" Name="InHeat" EURangesId="5" />
+          <Variable Name="OutTemp" EURangesId="4" />
         </Variable>
-        <Variable Name="MinTemperature" EURangesId="3" />
-        <Variable Name="MaxTemperature" EURangesId="2" />
+        <Variable AclId="5" AclInherit="2" Name="MinTemperature" EURangesId="3" />
+        <Variable AclId="6" AclInherit="2" Name="MaxTemperature" EURangesId="2" />
       </Task>
       <Task Name="Alarm">
         <Variable Name="MpAlarmXCore_0" />

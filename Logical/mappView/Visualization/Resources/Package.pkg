@@ -8,5 +8,6 @@
     <Object Type="File">Encabezados.tmx</Object>
     <Object Type="File">Produccion.tmx</Object>
     <Object Type="File">Configuracion.tmx</Object>
+    <Object Type="File">Info.tmx</Object>
   </Objects>
 </Package>

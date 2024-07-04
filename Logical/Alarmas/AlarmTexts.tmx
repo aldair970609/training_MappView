@@ -10,7 +10,7 @@
         <seg>¡Temperatura máxima excedida!: {&amp;TempActual|3.2f}</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Maximum temperature exceded!</seg>
+        <seg>Maximum temperature exceded!: {&amp;TempActual|3.2f}</seg>
       </tuv>
       <tuv xml:lang="de">
         <seg>Servus Welt!</seg>
@@ -25,7 +25,7 @@
 </seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Minimum temperature exceded!</seg>
+        <seg>Minimum temperature exceded!: {&amp;TempActual|3.2f}</seg>
       </tuv>
     </tu>
   </body>
