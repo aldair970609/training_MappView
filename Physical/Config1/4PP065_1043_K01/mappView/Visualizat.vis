@@ -21,7 +21,9 @@
   <EventBindingsSets>
     <EventBindingsSet refId="Info_Content_eventbinding" />
   </EventBindingsSets>
-  <Dialogs />
+  <Dialogs>
+    <Dialog refId="Param_dialog" />
+  </Dialogs>
   <Contents>
     <Content refId="Fondo_Content" />
     <Content refId="Navegacion_Content" />
@@ -30,6 +32,7 @@
     <Content refId="ParametrosMaquina_Content" />
     <Content refId="Alarmas_Content" />
     <Content refId="Configuracion_Content" />
+    <Content refId="content_dialog" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />
