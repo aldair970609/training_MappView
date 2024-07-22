@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="DialogParam_Content" height="600" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="80" left="500" zIndex="0" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="140" left="500" zIndex="1" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput3" top="200" left="500" zIndex="2" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput4" top="260" left="500" zIndex="3" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="80" left="280" width="180" zIndex="4" text="Velocidad de avance" borderWidth="5px" cornerRadius="5px" backColor="rgba(220, 220, 220, 1)" borderStyle="ridge" textColor="rgba(64, 0, 64, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="140" left="340" zIndex="5" text="Label2" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="200" left="340" zIndex="6" text="Label3" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="260" left="340" zIndex="7" text="Label4" />
+  </Widgets>
+</Content>
